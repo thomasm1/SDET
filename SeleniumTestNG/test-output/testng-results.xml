@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PositiveTestSuite" duration-ms="10440" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
+    <groups>
+    </groups>
+    <test name="PositiveTest" duration-ms="10440" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
+      <class name="net.thomasmaestas.selenium.PositiveTests">
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:net.thomasmaestas.selenium.PositiveTests@8bd1b6a]" name="logInTest" duration-ms="10394" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+      </class> <!-- net.thomasmaestas.selenium.PositiveTests -->
+    </test> <!-- PositiveTest -->
+  </suite> <!-- PositiveTestSuite -->
+</testng-results>
