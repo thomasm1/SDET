@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
+  <test thread-count="5" name="UploadTests(failed)">
+    <classes>
+      <class name="net.thomasmaestas.selenium.uploadtests.UploadTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="fileUploadTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- net.thomasmaestas.selenium.uploadtests.UploadTests -->
+    </classes>
+  </test> <!-- UploadTests(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

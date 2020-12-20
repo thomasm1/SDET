@@ -1,17 +1,994 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="2" failed="2" ignored="0" total="17" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="PositiveTestSuite" duration-ms="10440" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
+  <suite name="FullUITestSuite" duration-ms="159391" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:48:01Z">
     <groups>
     </groups>
-    <test name="PositiveTest" duration-ms="10440" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
-      <class name="net.thomasmaestas.selenium.PositiveTests">
-        <test-method status="PASS" signature="logInTest()[pri:0, instance:net.thomasmaestas.selenium.PositiveTests@8bd1b6a]" name="logInTest" duration-ms="10394" started-at="2020-12-19T03:50:13Z" finished-at="2020-12-19T03:50:24Z">
+    <test name="NegativeUsernameTest-CH" duration-ms="17281" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:39Z">
+      <class name="net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@754ba872]" name="setUp" is-config="true" duration-ms="11307" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4f970963]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@754ba872]" name="negativeTest" duration-ms="3054" started-at="2020-12-20T03:45:33Z" finished-at="2020-12-20T03:45:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incorrectUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your username is invalid!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@754ba872]" name="tearDown" is-config="true" duration-ms="2886" started-at="2020-12-20T03:45:36Z" finished-at="2020-12-20T03:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests -->
+    </test> <!-- NegativeUsernameTest-CH -->
+    <test name="CheckboxesTests" duration-ms="20100" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:42Z">
+      <class name="net.thomasmaestas.selenium.checkboxespagetests.CheckboxesTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.checkboxespagetests.CheckboxesTests@553f17c]" name="setUp" is-config="true" duration-ms="10541" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61f8bee4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectingTwoCheckboxesTest()[pri:0, instance:net.thomasmaestas.selenium.checkboxespagetests.CheckboxesTests@553f17c]" name="selectingTwoCheckboxesTest" duration-ms="4724" started-at="2020-12-20T03:45:33Z" finished-at="2020-12-20T03:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectingTwoCheckboxesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.checkboxespagetests.CheckboxesTests@553f17c]" name="tearDown" is-config="true" duration-ms="4803" started-at="2020-12-20T03:45:37Z" finished-at="2020-12-20T03:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.checkboxespagetests.CheckboxesTests -->
+    </test> <!-- CheckboxesTests -->
+    <test name="PositiveLogInTest-CH" duration-ms="20099" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:42Z">
+      <class name="net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests@3ffc5af1]" name="setUp" is-config="true" duration-ms="10544" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b49cea0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInTest()[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests@3ffc5af1]" name="logInTest" duration-ms="6587" started-at="2020-12-20T03:45:33Z" finished-at="2020-12-20T03:45:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logInTest -->
-      </class> <!-- net.thomasmaestas.selenium.PositiveTests -->
-    </test> <!-- PositiveTest -->
-  </suite> <!-- PositiveTestSuite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests@3ffc5af1]" name="tearDown" is-config="true" duration-ms="2936" started-at="2020-12-20T03:45:39Z" finished-at="2020-12-20T03:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests -->
+    </test> <!-- PositiveLogInTest-CH -->
+    <test name="DropdownTests" duration-ms="18725" started-at="2020-12-20T03:45:39Z" finished-at="2020-12-20T03:45:58Z">
+      <class name="net.thomasmaestas.selenium.dropdowntests.DropdownTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.dropdowntests.DropdownTests@4cf777e8]" name="setUp" is-config="true" duration-ms="8806" started-at="2020-12-20T03:45:39Z" finished-at="2020-12-20T03:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@887af79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="optionTwoTest()[pri:0, instance:net.thomasmaestas.selenium.dropdowntests.DropdownTests@4cf777e8]" name="optionTwoTest" duration-ms="8883" started-at="2020-12-20T03:45:48Z" finished-at="2020-12-20T03:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optionTwoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.dropdowntests.DropdownTests@4cf777e8]" name="tearDown" is-config="true" duration-ms="1031" started-at="2020-12-20T03:45:57Z" finished-at="2020-12-20T03:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.dropdowntests.DropdownTests -->
+    </test> <!-- DropdownTests -->
+    <test name="WindowsTests" duration-ms="21136" started-at="2020-12-20T03:45:42Z" finished-at="2020-12-20T03:46:03Z">
+      <class name="net.thomasmaestas.selenium.windowstests.WindowsTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.windowstests.WindowsTests@72d818d1]" name="setUp" is-config="true" duration-ms="8854" started-at="2020-12-20T03:45:42Z" finished-at="2020-12-20T03:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7fac631b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="newWindowTest()[pri:0, instance:net.thomasmaestas.selenium.windowstests.WindowsTests@72d818d1]" name="newWindowTest" duration-ms="9988" started-at="2020-12-20T03:45:51Z" finished-at="2020-12-20T03:46:01Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.linkText: Click Here (tried for 5 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.linkText: Click Here (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at net.thomasmaestas.selenium.pages.BasePageObject.waitFor(BasePageObject.java:78)
+at net.thomasmaestas.selenium.pages.BasePageObject.waitForVisibilityOf(BasePageObject.java:89)
+at net.thomasmaestas.selenium.pages.BasePageObject.click(BasePageObject.java:47)
+at net.thomasmaestas.selenium.pages.WindowsPage.openNewWindow(WindowsPage.java:18)
+at net.thomasmaestas.selenium.windowstests.WindowsTests.newWindowTest(WindowsTests.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Click Here
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+at java.util.Optional.orElseThrow(Optional.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.windowstests.WindowsTests@72d818d1]" name="tearDown" is-config="true" duration-ms="2289" started-at="2020-12-20T03:46:01Z" finished-at="2020-12-20T03:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.windowstests.WindowsTests -->
+    </test> <!-- WindowsTests -->
+    <test name="EditorTests" duration-ms="22393" started-at="2020-12-20T03:45:58Z" finished-at="2020-12-20T03:46:21Z">
+      <class name="net.thomasmaestas.selenium.editortests.EditorTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.editortests.EditorTests@4566e5bd]" name="setUp" is-config="true" duration-ms="8815" started-at="2020-12-20T03:45:58Z" finished-at="2020-12-20T03:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5bc79255]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="defaultEditorValueTest()[pri:0, instance:net.thomasmaestas.selenium.editortests.EditorTests@4566e5bd]" name="defaultEditorValueTest" duration-ms="12762" started-at="2020-12-20T03:46:07Z" finished-at="2020-12-20T03:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultEditorValueTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.editortests.EditorTests@4566e5bd]" name="tearDown" is-config="true" duration-ms="809" started-at="2020-12-20T03:46:20Z" finished-at="2020-12-20T03:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.editortests.EditorTests -->
+    </test> <!-- EditorTests -->
+    <test name="KeyPressesTests" duration-ms="22732" started-at="2020-12-20T03:46:03Z" finished-at="2020-12-20T03:46:26Z">
+      <class name="net.thomasmaestas.selenium.keypressestests.KeyPressesTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="setUp" is-config="true" duration-ms="8497" started-at="2020-12-20T03:46:03Z" finished-at="2020-12-20T03:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@47ef968d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pressKeyTest()[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="pressKeyTest" duration-ms="1050" started-at="2020-12-20T03:46:12Z" finished-at="2020-12-20T03:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressKeyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="tearDown" is-config="true" duration-ms="2381" started-at="2020-12-20T03:46:13Z" finished-at="2020-12-20T03:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="setUp" is-config="true" duration-ms="8488" started-at="2020-12-20T03:46:15Z" finished-at="2020-12-20T03:46:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@47ef968d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="pressKeyWithActionsTest()[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="pressKeyWithActionsTest" duration-ms="1351" started-at="2020-12-20T03:46:24Z" finished-at="2020-12-20T03:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressKeyWithActionsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.keypressestests.KeyPressesTests@73846619]" name="tearDown" is-config="true" duration-ms="962" started-at="2020-12-20T03:46:25Z" finished-at="2020-12-20T03:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.keypressestests.KeyPressesTests -->
+    </test> <!-- KeyPressesTests -->
+    <test name="AlertsTests" duration-ms="56001" started-at="2020-12-20T03:45:42Z" finished-at="2020-12-20T03:46:38Z">
+      <class name="net.thomasmaestas.selenium.alertstests.AlertsTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="setUp" is-config="true" duration-ms="9556" started-at="2020-12-20T03:45:42Z" finished-at="2020-12-20T03:45:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@23e028a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jsAlertTest()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="jsAlertTest" duration-ms="3782" started-at="2020-12-20T03:45:52Z" finished-at="2020-12-20T03:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsAlertTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="tearDown" is-config="true" duration-ms="1337" started-at="2020-12-20T03:45:55Z" finished-at="2020-12-20T03:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="setUp" is-config="true" duration-ms="9418" started-at="2020-12-20T03:45:57Z" finished-at="2020-12-20T03:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@23e028a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="jsDismissTest()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="jsDismissTest" duration-ms="16593" started-at="2020-12-20T03:46:06Z" finished-at="2020-12-20T03:46:23Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\thoma\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 64c8435b34435b4cf0635329a2c9f689]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\thoma\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 87.0.4280.88, webStorageEnabled: true}
+Session ID: 64c8435b34435b4cf0635329a2c9f689
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at net.thomasmaestas.selenium.pages.BasePageObject.switchToAlert(BasePageObject.java:101)
+at net.thomasmaestas.selenium.pages.JavaScriptAlertsPage.getAlertText(JavaScriptAlertsPage.java:40)
+at net.thomasmaestas.selenium.alertstests.AlertsTests.jsDismissTest(AlertsTests.java:61)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsDismissTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="tearDown" is-config="true" duration-ms="724" started-at="2020-12-20T03:46:23Z" finished-at="2020-12-20T03:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="setUp" is-config="true" duration-ms="8270" started-at="2020-12-20T03:46:23Z" finished-at="2020-12-20T03:46:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@23e028a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="jsPromptTest()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="jsPromptTest" duration-ms="5235" started-at="2020-12-20T03:46:32Z" finished-at="2020-12-20T03:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsPromptTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.alertstests.AlertsTests@5bcab519]" name="tearDown" is-config="true" duration-ms="1078" started-at="2020-12-20T03:46:37Z" finished-at="2020-12-20T03:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.alertstests.AlertsTests -->
+    </test> <!-- AlertsTests -->
+    <test name="DragAndDropTests-CH" duration-ms="12140" started-at="2020-12-20T03:46:26Z" finished-at="2020-12-20T03:46:38Z">
+      <class name="net.thomasmaestas.selenium.draganddroptests.DragAndDropTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@6e1ec318]" name="setUp" is-config="true" duration-ms="9866" started-at="2020-12-20T03:46:26Z" finished-at="2020-12-20T03:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dd4520b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dragAToBTest()[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@6e1ec318]" name="dragAToBTest" duration-ms="1072" started-at="2020-12-20T03:46:36Z" finished-at="2020-12-20T03:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAToBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@6e1ec318]" name="tearDown" is-config="true" duration-ms="1199" started-at="2020-12-20T03:46:37Z" finished-at="2020-12-20T03:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.draganddroptests.DragAndDropTests -->
+    </test> <!-- DragAndDropTests-CH -->
+    <test name="NegativePasswordTest-FF" duration-ms="86768" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:46:49Z">
+      <class name="net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests">
+        <test-method status="FAIL" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@239963d8]" name="setUp" is-config="true" duration-ms="86731" started-at="2020-12-20T03:45:22Z" finished-at="2020-12-20T03:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ca17b91]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+at net.thomasmaestas.selenium.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:31)
+at net.thomasmaestas.selenium.base.BaseTest.setUp(BaseTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="negativeTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@239963d8]" name="negativeTest" duration-ms="0" started-at="2020-12-20T03:46:49Z" finished-at="2020-12-20T03:46:49Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+at net.thomasmaestas.selenium.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:31)
+at net.thomasmaestas.selenium.base.BaseTest.setUp(BaseTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests@239963d8]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-12-20T03:46:49Z" finished-at="2020-12-20T03:46:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at net.thomasmaestas.selenium.base.BaseTest.tearDown(BaseTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests -->
+    </test> <!-- NegativePasswordTest-FF -->
+    <test name="UploadTests" duration-ms="42633" started-at="2020-12-20T03:46:21Z" finished-at="2020-12-20T03:47:03Z">
+      <class name="net.thomasmaestas.selenium.uploadtests.UploadTests">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="setUp" is-config="true" duration-ms="8194" started-at="2020-12-20T03:46:21Z" finished-at="2020-12-20T03:46:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ae63ade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fileUploadTest(int, java.lang.String)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="fileUploadTest" duration-ms="8176" started-at="2020-12-20T03:46:29Z" data-provider="files" finished-at="2020-12-20T03:46:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="tearDown" is-config="true" duration-ms="1117" started-at="2020-12-20T03:46:37Z" finished-at="2020-12-20T03:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="setUp" is-config="true" duration-ms="9140" started-at="2020-12-20T03:46:38Z" finished-at="2020-12-20T03:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ae63ade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fileUploadTest(int, java.lang.String)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="fileUploadTest" duration-ms="2074" started-at="2020-12-20T03:46:47Z" data-provider="files" finished-at="2020-12-20T03:46:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[logo.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="tearDown" is-config="true" duration-ms="828" started-at="2020-12-20T03:46:49Z" finished-at="2020-12-20T03:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="setUp" is-config="true" duration-ms="9054" started-at="2020-12-20T03:46:50Z" finished-at="2020-12-20T03:46:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5ae63ade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fileUploadTest(int, java.lang.String)[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="fileUploadTest" duration-ms="2833" started-at="2020-12-20T03:46:59Z" data-provider="files" finished-at="2020-12-20T03:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[text.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.uploadtests.UploadTests@20322d26]" name="tearDown" is-config="true" duration-ms="1206" started-at="2020-12-20T03:47:02Z" finished-at="2020-12-20T03:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.uploadtests.UploadTests -->
+    </test> <!-- UploadTests -->
+    <test name="DragAndDropTests-FF" duration-ms="83276" started-at="2020-12-20T03:46:38Z" finished-at="2020-12-20T03:48:01Z">
+      <class name="net.thomasmaestas.selenium.draganddroptests.DragAndDropTests">
+        <test-method status="FAIL" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@31dc339b]" name="setUp" is-config="true" duration-ms="83270" started-at="2020-12-20T03:46:38Z" finished-at="2020-12-20T03:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@29cdc7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+at net.thomasmaestas.selenium.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:31)
+at net.thomasmaestas.selenium.base.BaseTest.setUp(BaseTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="dragAToBTest()[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@31dc339b]" name="dragAToBTest" duration-ms="0" started-at="2020-12-20T03:48:01Z" finished-at="2020-12-20T03:48:01Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: newSession
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-43MOIMNV', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: WebDriverError@chrome://marionette/content/error.js:181:5
+UnknownCommandError@chrome://marionette/content/error.js:477:5
+despatch@chrome://marionette/content/server.js:287:13
+execute@chrome://marionette/content/server.js:267:16
+onPacket/<@chrome://marionette/content/server.js:240:20
+onPacket@chrome://marionette/content/server.js:241:9
+_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+at net.thomasmaestas.selenium.base.BrowserDriverFactory.createDriver(BrowserDriverFactory.java:31)
+at net.thomasmaestas.selenium.base.BaseTest.setUp(BaseTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAToBTest -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:net.thomasmaestas.selenium.draganddroptests.DragAndDropTests@31dc339b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-12-20T03:48:01Z" finished-at="2020-12-20T03:48:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at net.thomasmaestas.selenium.base.BaseTest.tearDown(BaseTest.java:40)
+at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:536)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- net.thomasmaestas.selenium.draganddroptests.DragAndDropTests -->
+    </test> <!-- DragAndDropTests-FF -->
+  </suite> <!-- FullUITestSuite -->
 </testng-results>

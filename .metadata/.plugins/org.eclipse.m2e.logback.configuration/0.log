@@ -1512,3 +1512,308 @@
 2020-12-18 22:49:59,944 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-12-18 22:49:59,945 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-12-18 22:49:59,948 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 21:28:38,401 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-12-19 21:35:48,105 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:35:48,113 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 21:35:48,121 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:35:48,123 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-12-19 21:45:56,377 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:45:56,413 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:45:56,416 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:45:56,442 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-12-19 21:49:56,425 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:49:56,427 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:49:56,428 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:49:56,433 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-12-19 21:50:07,503 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:50:07,504 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:50:07,505 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:50:07,510 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 16 resources
+2020-12-19 21:51:52,497 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:51:52,499 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:51:52,501 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:51:52,504 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 21:52:04,382 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:52:04,383 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:52:04,385 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:52:04,387 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 21:52:34,078 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:52:34,080 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:52:34,082 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:52:34,084 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 21:53:59,594 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:53:59,596 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:53:59,599 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:53:59,601 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 21:54:20,879 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:54:20,880 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:54:20,882 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:54:20,885 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 21:54:42,136 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:54:42,138 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:54:42,139 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:54:42,142 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:59:24,247 [Worker-23: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 21:59:25,199 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.pom
+2020-12-19 21:59:25,319 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.pom
+2020-12-19 21:59:25,417 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar
+2020-12-19 21:59:25,924 [Worker-23: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1.jar
+2020-12-19 21:59:26,856 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:26,859 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 21:59:26,861 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:26,867 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2020-12-19 21:59:27,957 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1-sources.jar
+2020-12-19 21:59:28,306 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1-sources.jar
+2020-12-19 21:59:28,609 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.logging.log4j:log4j-core:2.11.1
+2020-12-19 21:59:29,204 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:29,207 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 21:59:29,477 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:29,481 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 21:59:41,177 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 21:59:41,593 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 21:59:42,137 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 21:59:42,138 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 21:59:42,139 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 21:59:42,139 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 21:59:42,919 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-12-19 21:59:43,890 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:43,892 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 21:59:44,027 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 21:59:44,029 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:01:00,127 [Worker-33: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:01:00,127 [Worker-33: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:01:04,715 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:01:04,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:01:04,827 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:01:04,832 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:02:06,768 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:02:06,770 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:02:06,772 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:02:06,774 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:04:48,685 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:04:48,688 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:04:48,690 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:04:48,692 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:05:09,315 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:05:09,318 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:05:09,322 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:05:09,328 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:05:57,200 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:05:57,202 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:05:57,204 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:05:57,206 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:08:42,418 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:08:42,421 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:08:42,423 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:08:42,424 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:12:11,628 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:12:11,630 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:12:11,638 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:12:11,662 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:12:38,967 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:12:39,465 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:12:40,696 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:12:40,696 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:12:40,697 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:12:40,697 [Worker-58: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:12:41,062 [Worker-58: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-12-19 22:12:42,031 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:12:42,068 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-12-19 22:12:42,233 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:12:42,235 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:13:10,738 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:10,741 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:13:10,742 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:10,746 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:13:25,501 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:25,503 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:13:25,507 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:25,512 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:13:43,205 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:43,208 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:13:43,210 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:43,213 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:13:53,928 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:53,930 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:13:53,931 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:13:53,936 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:14:02,787 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:02,789 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:14:02,790 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:02,795 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:14:16,315 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:16,317 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:14:16,319 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:16,323 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:14:25,157 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:25,159 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:14:25,162 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:25,167 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:14:34,329 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:34,331 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:14:34,332 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:14:34,337 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:15:35,713 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:15:35,715 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:15:35,717 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:15:35,723 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:16:31,674 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:16:31,676 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:16:31,677 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:16:31,681 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:16:51,170 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:16:51,172 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:16:51,174 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:16:51,179 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:17:19,451 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:17:19,452 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:17:19,454 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:17:19,459 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:17:30,135 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:17:30,136 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:17:30,138 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:17:30,142 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:19:29,438 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:19:29,440 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:19:29,441 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:19:29,444 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:19:35,885 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:19:35,887 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:19:35,889 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:19:35,891 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:21:35,455 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:21:35,457 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2020-12-19 22:21:35,468 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:21:35,470 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:23:48,045 [Worker-70: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:23:48,045 [Worker-70: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:23:50,907 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:23:50,911 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:23:51,017 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:23:51,021 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:24:47,508 [Worker-95: Launching SeleniumTestNG_src.test.resources.TestSuites.SmokeTestSuite.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:24:47,510 [Worker-95: Launching SeleniumTestNG_src.test.resources.TestSuites.SmokeTestSuite.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-12-19 22:24:47,515 [Worker-95: Launching SeleniumTestNG_src.test.resources.TestSuites.SmokeTestSuite.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:24:47,517 [Worker-95: Launching SeleniumTestNG_src.test.resources.TestSuites.SmokeTestSuite.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:25:20,773 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:20,775 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:25:20,777 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:20,779 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:25:23,710 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:23,712 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:25:23,713 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:23,718 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:25:39,433 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:39,435 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:25:39,437 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:25:39,441 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:26:03,228 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:26:03,230 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:26:03,231 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:26:03,236 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:27:03,240 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:27:03,776 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:27:04,345 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:27:04,345 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:27:04,346 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:27:04,346 [Worker-93: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:27:04,633 [Worker-93: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-12-19 22:27:05,333 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:27:05,338 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:27:05,461 [Worker-93: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:27:05,463 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:29:19,906 [Worker-128: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:29:20,256 [Worker-128: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:29:20,612 [Worker-128: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:29:20,612 [Worker-128: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:29:20,613 [Worker-128: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:29:20,614 [Worker-128: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:29:20,882 [Worker-128: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-12-19 22:29:21,435 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:29:21,437 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:29:21,538 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:29:21,540 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:30:19,845 [Worker-110: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:30:19,845 [Worker-110: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:30:22,734 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:30:22,738 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:30:22,840 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:30:22,843 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:33:23,139 [Worker-121: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:33:23,139 [Worker-121: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:33:25,872 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:33:25,875 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:33:25,975 [Worker-118: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:33:25,979 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:33:56,867 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:33:57,222 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:33:57,841 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:33:57,844 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:33:57,845 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:33:57,845 [Worker-95: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:33:58,236 [Worker-95: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-12-19 22:33:59,289 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:33:59,291 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:33:59,418 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:33:59,421 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:35:33,519 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:35:33,522 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:35:33,523 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:35:33,527 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:35:42,068 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:35:42,070 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:35:42,071 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:35:42,075 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:39:14,100 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:39:14,102 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:39:14,103 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:39:14,105 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-12-19 22:40:16,924 [Worker-107: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:40:16,924 [Worker-107: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:40:19,925 [Worker-182: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:40:19,928 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:40:20,045 [Worker-182: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:40:20,051 [Worker-182: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:40:57,274 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:40:57,629 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:40:59,217 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:40:59,217 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:40:59,218 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:40:59,218 [Worker-183: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:41:00,085 [Worker-183: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-12-19 22:41:00,701 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:41:00,703 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:41:00,832 [Worker-154: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:41:00,835 [Worker-154: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:41:34,937 [Worker-214: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:41:34,937 [Worker-214: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:41:37,864 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:41:37,868 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:41:37,974 [Worker-170: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:41:37,978 [Worker-170: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:42:34,098 [Worker-158: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:42:34,535 [Worker-158: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:42:35,144 [Worker-158: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:42:35,144 [Worker-158: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:42:35,147 [Worker-158: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:42:35,148 [Worker-158: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:42:35,610 [Worker-158: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-12-19 22:42:36,370 [Worker-205: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:42:36,373 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:42:36,599 [Worker-205: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:42:36,602 [Worker-205: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:44:40,420 [Worker-203: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\w\www\git\CucumberFramework\SeleniumTestNG
+2020-12-19 22:44:40,420 [Worker-203: Launching Executing clean in C__w_www_git_CucumberFramework_SeleniumTestNG] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-12-19 22:44:43,335 [Worker-210: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:44:43,339 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2020-12-19 22:44:43,451 [Worker-210: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:44:43,455 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2020-12-19 22:45:10,079 [Worker-215: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-12-19 22:45:10,509 [Worker-215: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: net.thomasmaestas.selenium:selenium-webdriver:0.0.1-SNAPSHOT @ C:\w\www\git\CucumberFramework\SeleniumTestNG\pom.xml.
+2020-12-19 22:45:11,035 [Worker-215: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/main/java
+2020-12-19 22:45:11,035 [Worker-215: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/main/resources
+2020-12-19 22:45:11,036 [Worker-215: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumTestNG/src/test/java
+2020-12-19 22:45:11,036 [Worker-215: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SeleniumTestNG/src/test/resources
+2020-12-19 22:45:11,314 [Worker-215: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-12-19 22:45:11,877 [Worker-209: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-12-19 22:45:11,880 [Worker-209: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
