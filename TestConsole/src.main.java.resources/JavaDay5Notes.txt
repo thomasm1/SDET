@@ -1,0 +1,172 @@
+
+Java
+
+Java Day 5
+
+
+Generics
+
+	- enforces compile time restraints of what type of object is allowed in
+	a collection.
+	- List<String> list = new ArrayList<String>();
+	- Set<? extends Object> myset = new HashSet<? extends Object>();
+	- Map<String, Person>
+
+
+---------------------------------------------------
+
+File I/O
+
+	- File I/O is accessing data from a resource outside the JRE
+		- input - reading data
+		- output - writing data
+
+	- Stream - Data is passed as bytes
+	- Reader/Writer - Data is passed as characters
+
+	
+	FileInputStream - reads in bytes
+	FileOutputStream - writes bytes
+
+
+	FileReader - reads characters
+	FileWriter - writes characters
+
+	BufferedReader - reads a file line by line and is generally more efficient
+			than just a FileReader
+	BufferedWriter - same as the BufferedReader but for writing.
+
+
+
+
+---------------------------------------------
+
+Reflection API
+
+	- Allows us access class information at runtime.
+		- Class name, method names, variables, etc
+
+	- Is a way for Java to essentially write Java code from within Java.
+
+
+
+---------------------------------------------
+
+log4J
+	- reliable, fast and flexible logging framework
+
+Why do we log?
+	- record events that occur during execution
+	- immensely helpful for debugging
+	- Allows information to the segments of code we do not have direct access to.
+
+
+log levels
+
+	- All
+	- Debug
+	- Error
+	- Fatal
+	- Warn
+	- Info
+	- Off
+
+	1. Add log4J dependency to pom.xml file. 
+	(Might need to update: Right Click Project -> Maven -> Update Project)
+	2. Configure/Create your log4j2.xml file. (Most likely copy and paste from prev. work)
+	3. Create a logger class.
+	3.5 Add a public static final Logger. Uses LogManager.getLogger(YourLogger.class)
+	4. Use that static variable anywhere in your code.
+
+
+
+--------------------------------------------
+
+
+Lambdas
+
+	- enable functional programming in Java
+	- ability to define behavior independent of any class
+
+Why use Lambdas?
+	
+	- Allows us to make code more concise
+	- removes boiler plate code
+	- Enables passing functions as a value/parameters
+
+
+Lambda Creation
+	
+	- We make a functional interface
+		- @FunctionalInterface
+		- Has only one* (abstract) method
+
+	- We use arrow notation to define parameters and a segment of code.
+
+
+------------------------------------------------
+
+
+Threads
+
+	- Process
+		- is an executing program
+		- process is composed of one to many threads
+
+	- Thread
+		- Smallest unit of commands that can be executed
+		- Subset of a process
+		- All Java programs have a main thread
+		- Threads can spawn off of other threads
+
+	- Multi-Threading
+		- The ability for multiple threads to exist concurrently
+		and run individually in parallel
+		- each thread can have its own task
+		- OS divides processing time between threads
+
+	- Why use multi-threading?
+		- two heads are faster than one
+		- Decides what processes in a program should have resources.
+
+	- priorities
+		- Threads can have priorities which dictate when they are run.
+		- minpriority = 1	- maxpriority = 10
+
+	
+	- Create a Thread
+		- Create a class that extends the Thread class
+		- override the run() method
+		- call the start() method
+
+	- Another way to create a Thread
+		- Create a class that implements Runnable
+		- instantiate the class
+		- Call the start() method
+
+
+	- schedular - decides what threads run and when
+
+	'synchronized' keyword
+		- only one thread can access this method/variable at a time.
+
+
+	Thread Lifecycle
+		- new - newly created Thread no yet started
+		- runnable - ready for execution but waiting for a resource
+		- running - schedular has selected this thread to run
+		- blocked - waiting for a monitor to release a lock on a synchronized
+		method or block
+		- terminated - Thread has finished
+
+	
+	Deadlock - Situation in which two or more threads are trying to access the other
+	thread's resource(s) but neither is allowing access.
+
+	Livelock - Situation in which two or more threads are both 'offering' up their
+	resources and waiting for the other to use it.
+
+
+
+
+

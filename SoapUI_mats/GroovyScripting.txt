@@ -1,0 +1,52 @@
+//Groovy Scripting
+//Printing in Console
+log.info "SoapUI logging...."
+
+// Declare vars - loosely coupled 
+def Author = "Thomas"
+def blogs = 120
+def blogsBool=false
+assert blogs == 120
+
+log.info Author
+
+//Operators
+log.info "# of blogs: " + blogs
+log.info "# of blogs: $blogs"
+
+for(def i=0; i<4; i++)
+{ 
+	log.info[i]
+}
+
+//Exceptions
+try {
+	def x=4/0
+	}
+catch(Exception e) {
+	log.info "script not handled"
+	}
+
+//Array List
+ArrayList ar = new ArrayList()
+ar.add("a")
+log.info ar.get(0)
+ar.add("b")
+log.info ar.get(1)
+
+//While Loop
+def j=1
+while (j<5) {
+	log.info j
+	j++
+	}
+def abc = new String[5]
+abc[0]="zero"
+abc[1]="one"
+abc[2]="three"
+
+log.info abc.size()
+for (def k=0; k<abc.size(); k++) {
+	log.info abc[k]
+	}
+log.info "Array Size " + abc.size()

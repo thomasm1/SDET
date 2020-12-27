@@ -11,6 +11,7 @@ public class LoginPage extends BasePageObject {
 	private By logInButtonLocator = By.tagName("button");
 	private By errorMessageLocator = By.id("flash");
 
+	// CONSTRUCTOR -don't forget super - to get methods from BasePageObject
 	public LoginPage(WebDriver driver, Logger log) {
 		super(driver, log);
 	}

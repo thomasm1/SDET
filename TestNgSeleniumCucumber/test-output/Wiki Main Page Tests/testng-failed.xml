@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Wiki Main Page Tests]">
+  <test name="SSB Character Tests">
+    <classes>
+      <class name="com.revature.charactertesting.CharacterSearchTest"/>
+    </classes>
+  </test> <!-- SSB Character Tests -->
+  <test name="Cucumber Tests">
+    <classes>
+      <class name="com.revature.behaviortests.TestRunner"/>
+    </classes>
+  </test> <!-- Cucumber Tests -->
+</suite> <!-- Failed suite [Wiki Main Page Tests] -->

@@ -1,0 +1,112 @@
+
+Java
+
+- Why Java?
+
+	- Widely Used
+	- Platform independent - WORA - Write Once, Run Anywhere
+	- OOP - Object Oriented Programming - primitives, functional
+	- Rich API - Many libraries
+	- Automatic Memory Management, no Pointers.
+	- Strongly and Statically Data types
+
+- JDK - Java Development Kit
+	- contains all the tools necessary to create and *compile* Java programs.
+
+- JRE - Java Runtime Environment
+	- provides the classes and runtime libraries to run a Java program.
+
+- JVM - Java Virtual Machine
+	- Abstract machine which executes Java byte code
+
+How to compile?
+	- java c myClass.java	-> myClass.class
+
+How to run?
+	- java myClass.class
+
+
+- Class
+	- Blueprint for an Ojbect that defines its states and behaviors
+
+- Object
+	- An instance of a Class
+
+- Primitives
+	- int		- Byte	(8 bits)
+	- char		- short (16 bits)
+	- double	- char (16 bits)
+	- float		- int (32 bits)
+	- long		- float (32 bits)
+	- short		- double (64 bits)
+	- byte		- long (64 bits)
+	- boolean	- boolean - N/A (1 bit of info)
+
+
+- Memory
+	- No Pointers
+	- Heap
+		- Store all Objects
+	- Stack
+		- Current methods being called are stored (Everything else)
+
+
+Is Java pass by value or pass by Reference?
+	- Java is 100% pass by value
+			- Pass by Copy Reference
+
+
+- Class
+	- Methods - behaviors for a class. Like a function.
+	- variables - states/fields (attributes) of a class.
+	- constructor - builds an instance of a class - AKA Object.
+	- blocks - segmented chunks of executable code.
+
+- Scopes in Java
+	- class/static
+	- object/instance
+	- block		-local		for(...) { }
+	- method	-local		doSomething();
+
+	- No Global Scope
+
+- OOP - Object Oriented Programming
+	- Programming paradigm based on the Object as the building block of programs
+		- ex: Java, python, C++, Ruby, C#
+
+	- Pillars of OOP
+
+		- A - Abstraction
+		- P - Polymorphism
+		- I - Inheritance
+		- E - Encapsulation
+
+	- Abstraction
+		- The idea of something not being associated with a particular object.
+		There is only the fundamental parts.
+		- Intent over implementation
+		- I do not need to know the details.
+		- interfaces, abstract classes
+
+	- Polymorphism
+		- A single object that can be many things. A single method signature/name
+		can have multiple implementations.
+			- static polymorphism - overloading
+			- dynamic polymorphism - overriding
+			- casting
+				- List<Object> list = new ArrayList<Object();
+
+	- Inheritance
+		- one class can derivce from another class. Code reusability.
+		- Child and Parent classes
+		- extends keywords
+
+	- Encapsulation
+		- hiding/protecting data
+		- access modifiers
+
+
+
+
+
+

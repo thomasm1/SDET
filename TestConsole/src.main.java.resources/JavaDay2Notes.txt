@@ -1,0 +1,165 @@
+
+Java
+
+Java Day 2
+
+- Access Modifiers
+
+	- public
+		- accessible anywhere in the application
+
+	- protected
+		- accessible in all subclasses (itself and its child classes)
+		- and anywhere in the same package.
+
+	- default
+		- accessible anywhere in the same package
+		- no access modifier
+
+	- private
+		- accessible only within the class
+
+-------------------------------------------------
+
+- Constructor
+
+	- Allocates memory for an Object
+	- uses the new keyword
+	- Create an instance of a class
+	- All classes have a default constructor
+		- This calls the noArg super constructor
+	- can be overloaded
+
+
+-------------------------------------------------
+
+Array
+	- Indexed block of sequentially stored elements of the same type*
+	- The size is fixed
+
+	int[] ray = new int[10];
+	int[] ray2= {1, 2, 3, 4, 5};
+	String[] args = {"Hello", "World"};
+
+--------------------------------------------------
+
+Varargs - Variable Arguments
+	- Alternative syntax for an array
+	- must be the last parameter in a method
+	- DataType ... 
+
+	public static void concat(String ... names) {
+		for(int i = 0; i < names.length; i++) {
+			System.out.print(name[i] + " ");
+		}
+	}
+
+	concat("Ryan");
+	concat("Ryan", "Richard", "Shelby");
+
+	//without varargs
+	concat({"Ryan","Richard"});
+
+	public static void concat(int num, String ... names) {
+		for(int i = 0; i < names.length; i++) {
+			System.out.print(num + " " + name[i] + " ");
+		}
+	}
+
+	concat(15, "Ryan", "Richard", "Shelby");
+
+
+--------------------------------------------------------
+
+- Garbage Collection
+
+	- Java frees up memory in the heap by removing objects
+	- Objects are removed if that Object has no references at the time of GC.
+	- Cannot be forced but requested by System.gc();
+	- The finalize() method is called when an object is garbage collected
+	- Automated Process
+
+
+-------------------------------------------------------
+
+- Wrapper Classes
+	
+	- lets you treat a primitive as an Object. There is Wrapper class for each
+	primitive in Java.
+	- ex. Integer, Double, Boolean, Byte, Character, ....
+
+	- Autoboxing -> primitive to a Wrapper class
+	- Unboxing   -> Wrapper class to a primitive
+
+
+
+-------------------------------------------------------
+
+- String
+	
+	- Object that stores character information
+	- Not a primitive
+	- String is a final class
+	- String is immutable
+		- Its value cannot change
+
+		String s = "Hello World";
+		s = "Hey";
+
+	- Common String methods
+		- length();
+		- compareTo();
+		- indexOf();
+		- toLowerCase();
+		- equals(); *			- Object
+
+		dracula == dracula2
+		dracula.equals(dracula2);
+
+	- String Pool
+		- Strings with the same value share the same memory location
+		- Saves memory
+		- can force new memory allocation with the 'new' keyword.
+
+		String s = "Hello World"
+		String s1 = new String("Hello World");
+
+	- StringBuilder
+		- similar to Strings, but it is mutable.
+			- reverse();
+
+	- StringBuffer
+		- Similar to StringBuilder, but it Thread-safe.
+
+
+--------------------------------------------------
+
+- Object class
+
+	- Java.lang.Object
+	- All classes inherit from Object
+	- Broadest class
+
+	- toString()
+		- called when an Object is printed
+		- default is to print the memory location unless overriden
+
+	- equals()
+		- provides a way to see if two objects have the same state
+		- default is to chekc memory addresses
+
+	- hashCode()
+		- generates a number to identify an Object based of a custom algorithm
+		- often uses the Objects fields in the calculation
+		- hash code are not (gaurunteed) unique.
+
+
+
+
+
+
+
+
+
+
+

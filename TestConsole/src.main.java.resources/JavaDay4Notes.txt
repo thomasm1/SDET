@@ -1,0 +1,193 @@
+
+Java
+
+Java Day 4
+
+Abstract classes and interfaces
+
+- Abstract class
+	- Class that cannot be instantiated	-> MyAbstractClass obj = new MyAbstractClass();
+	- Can have abstract methods
+	- Can have concrete methods
+	- Variables can have an modifiers
+		- i.e. static, public, private, final, whatever...
+	- Child class will use the extends keyword
+	- A class can inherit only one abstract class, just like any other class
+
+- Interface
+	- Cannot be instantiated
+	- Variables are always public static final. Even if you don't specify such.
+	- Always* has abstract methods; however, default keyword allows for a concrete
+	method.
+	- use the implements keyword
+	- A class can implement multiple interfaces.
+
+
+
+----------------------------------------------
+
+
+Java Collections Framework
+
+	- Collections Framework is a group of classes and interfaces used for data
+	structures
+	- A collection is an object which is designed to hold other objects
+	- How it is stored and which methods are available depend on the object.
+
+
+List
+	- Ordered: preserves the order of insertion
+	- Allows duplicates
+
+ArrayList
+	- backed by an array
+	- Traversal is faster than a LinkedList, constant time
+	- Insertion/deletion is slower.
+
+LinkedList
+	- Traversal is slower than an ArrayList
+	- Insertion/Deletion is faster
+
+Vector
+	- Thread safe ArrayList
+
+Queue
+	- Used when elements should added and removed in a certain order
+	- FIFO -> First In, First Out
+	- LILO
+
+Stack
+	- Opposite of a Queue
+	- FILO -> First In, Last Out
+	- LIFO
+	if(((((())))))))) {
+		somecode();
+	}
+	- ArrayDeque
+
+Deque - Double Ended Queue
+	- BOTH FIFO and FILO
+	- Grab an element from the top or bottom of the collection.
+	- Deck of Cards
+
+
+Set
+	- Not index driven
+	- Unique elements only
+	- Does not preserve the order of insertion
+
+HashSet
+	- backed by a HashMap
+	- no order when iterating
+	- allow one null value
+	- insertion and traversal are fast
+
+TreeSet
+	- backed by a sorted tree
+	- maintains order
+	- no null values
+
+Hash vs Tree - Hash - unordered : Tree - ordered
+
+
+
+
+Map
+	- Elements are accessed via a Key-Value pair
+	- essentially a dictionary, or ssid to person
+
+HashMap
+	- Insertion and Deletion is constant
+	- Allows for one null key and many null values
+
+
+TreeMap
+	- Keys are sorted, maintain order
+	- Adding and deleting is slow
+
+
+Hashtable
+	- HashMap that is Thread-safe
+	- no null keys or values
+
+
+
+Tell me the difference between the Java Collections Framework (JCF), the collection class,
+and the collection interface.
+
+	- JCF - conglomeration of objects designed to for data storage
+
+	- Collection interface
+		- interface in which *all collections inherit from.
+
+	- Collections class
+		- utility class, it has methods that are available to all collections
+			- Collections.sort(list);
+			- people.sort();
+
+
+- Iterator
+	- Object that iterates over a location
+	- hasNext()	iterator.hasNext() 	-> boolean, does it have another element
+	- next()	iterator.next()		-> return of the next element
+	
+
+- Comparable
+	- interface which allows us to say how objects should be sorted in a collection
+	- returns an integer
+	- negative, -, means smaller, 0 means the same, positive, +, means larger.
+	- can only have one comparable
+		- compareTo();
+
+
+- Comparator
+	- Object that is used to sort a collection
+	- an object can have many comparators
+		- compare();
+
+
+
+-------------------------------------
+
+	for(int i = 0; i < someValue; i++)
+		if(someCondtion)
+			syso(i);
+
+
+
+-------------------------------------
+
+Design Pattern
+	- established convention to solve a software development problem.
+	- Promotes reusability, low maintenance
+	- easy to understand
+
+
+Why do we use design patterns?
+	- coding speed
+	- efficiency
+	- easy to read, other coders can understand
+	- Structures our code
+
+
+
+Singleton
+	- Solution to making an object we only ever want ONE instance of
+	in our entire program.
+	
+		- private constructor
+		- private static variable of the Class
+		- public method that will handle creating the object.
+
+
+
+Factory
+	- Solution to write code that creates Objects whose type will not be
+	known until runtime.
+	- Abstract type
+	- Classes will inherit it
+	- Static method returns concrete instance
+
+
+
+	

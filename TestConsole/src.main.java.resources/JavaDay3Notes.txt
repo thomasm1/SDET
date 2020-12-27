@@ -1,0 +1,148 @@
+
+Java
+
+Java Day 3
+
+
+
+Java Bean
+
+	- Class that follow 3 conventions
+
+	1. private variables
+	2. public getters and setters	-> accessors modifiers/mutators
+	3. * is Serializable	-> interface
+
+
+	POJO - Plain Old Java Object
+		- Everything else
+
+
+-----------------------------------------------------
+
+Exceptions/Errors
+
+- Errors
+	- Something has gone horribly wrong
+	- Should not attempt to recover from
+		- StackOverflowError
+		- OutOfMemoryError
+		- NoClassFoundError
+		- Syntax Error
+
+- [Checked] Exceptions (Compile time exception)
+	- Code was not able to be executed as intended
+	- Should be handled by the program
+		- FileIOException
+		- SQLException
+
+
+- Unchecked Exceptions (Runtime exception)
+	- Exception that cannot be anticipated
+	- Are not required to be handled
+		- NullPointerException
+		- indexOutOfBoundsException
+		- ArithmeticException
+
+
+- Handling Exceptions
+
+	- try-catch block
+		
+		try {
+		  somecode();
+		  return true;
+		} catch(ArithmeticException ae) {
+		  syso("You divided by zero!");
+		} catch(Exception e) {
+		  syso("You made a mistake");
+		  e.printStackTrace();
+		} finally {
+		  executesNoMatterWhat();
+		}
+
+	if(someCondition) {
+		somecode();
+	} else if(true) {
+		someothercode();
+	} else {
+		differentcode();
+	}
+
+
+	
+	- Throws
+		- Throws the exception to the method caller.
+		- Ultimately all thrown exception will either be caught or hit the JVM.
+
+
+		public void divide(int num1, int num2) throws ArithmeticException {
+
+		syso(num1/num2);
+
+	- Throw
+		- send an exception down the stack until it gets handled.
+
+
+
+
+-------------------------------------------------------
+
+
+Control Statements
+
+
+Conditionals	-> They evaluate some condition to be true or false
+
+if statement			if(num == 5)
+if - else statement
+if - elseif - else statement
+switch statement
+
+	switch (evaluation) {		//num
+	case value0: { somecode(); break; }
+	case value1:
+	case value2: { some other code(); break; }
+	default: { default code to run(); break; }
+
+
+loops
+
+for loop
+	for(int i = 0; i < array.length; i++) {
+		lots of code();
+		if(condition) {
+			continue;
+		}
+		more code();
+	}
+
+enhanced for loop - foreach loop
+
+	for( DataType d : someCollection) {
+		perform some code();
+		Syso(d.name);
+	}
+
+	for(String s : stringArray) {
+		System.out.println(s);
+	}
+
+while loop -
+
+	while (condition) {
+		some code();
+	}
+	while(true) {
+		
+	}
+
+	while(!isValid) {
+		ask them for new input();
+	}
+
+
+
+
+
+

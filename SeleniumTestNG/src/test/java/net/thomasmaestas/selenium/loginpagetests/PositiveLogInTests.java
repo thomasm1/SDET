@@ -1,5 +1,7 @@
 package net.thomasmaestas.selenium.loginpagetests;
 
+import org.openqa.selenium.By;
+//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -20,7 +22,13 @@ public class PositiveLogInTests extends TestUtilities {
 
 		// Click on Form Authentication link
 		LoginPage loginPage = welcomePage.clickFormAuthenticationLink();
-
+//		driver.findElement(By.id("username")).sendKeys("tom");
+//		driver.findElement(By.id("password")).sendKeys("superSecret");
+//		
+//		WebDriverWait wait = new WebDriverWait(driver, 10);
+		
+		
+		
 		// execute log in
 		SecureAreaPage secureAreaPage = loginPage.logIn("tomsmith", "SuperSecretPassword!");
 

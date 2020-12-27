@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5679" started-at="2020-02-09T04:38:37Z" finished-at="2020-02-09T04:38:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5679" started-at="2020-02-09T04:38:37Z" finished-at="2020-02-09T04:38:43Z">
+      <class name="com.revature.charactertesting.CharacterSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="setUp" is-config="true" duration-ms="5984" started-at="2020-02-08T23:38:31Z" finished-at="2020-02-08T23:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="before" is-config="true" duration-ms="687" started-at="2020-02-08T23:38:37Z" finished-at="2020-02-08T23:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="characterExists" duration-ms="1886" started-at="2020-02-08T23:38:38Z" data-provider="characters" finished-at="2020-02-08T23:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luigi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Luigi - Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="before" is-config="true" duration-ms="139" started-at="2020-02-08T23:38:40Z" finished-at="2020-02-08T23:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="characterExists" duration-ms="1424" started-at="2020-02-08T23:38:40Z" data-provider="characters" finished-at="2020-02-08T23:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wario]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wario - Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="before" is-config="true" duration-ms="135" started-at="2020-02-08T23:38:42Z" finished-at="2020-02-08T23:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="characterExists(java.lang.String, java.lang.String)[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="characterExists" duration-ms="1389" started-at="2020-02-08T23:38:42Z" data-provider="characters" finished-at="2020-02-08T23:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganondorf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganon - Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- characterExists -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.revature.charactertesting.CharacterSearchTest@1b604f19]" name="tearDown" is-config="true" duration-ms="669" started-at="2020-02-08T23:38:43Z" finished-at="2020-02-08T23:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.revature.charactertesting.CharacterSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
