@@ -7,6 +7,9 @@ target/
 
 ##TESTING##
 /test-output/
+SeleniumTestNG/test-output/
+
+SeleniumTestNG/test-output
 ### STS ###
 .apt_generated
 .classpath
@@ -33,3 +36,4 @@ build/
 ### VS Code ###
 .vscode/
 /.metadata/
+.metadata
