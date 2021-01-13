@@ -1,53 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [FullUITestSuite]" parallel="tests">
-  <test thread-count="4" name="WindowsTests(failed)" parallel="tests">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [NegativeLogInTestSuite]" parallel="tests">
+  <test thread-count="4" name="NegativeLogInTest-CH(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="net.thomasmaestas.selenium.windowstests.WindowsTests">
+      <class name="net.thomasmaestas.selenium.loginpagetests.NegativeLogInTestsDataProvider">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="newWindowTest"/>
+          <include name="negativeLogInTest" invocation-numbers="1 4"/>
         </methods>
-      </class> <!-- net.thomasmaestas.selenium.windowstests.WindowsTests -->
+      </class> <!-- net.thomasmaestas.selenium.loginpagetests.NegativeLogInTestsDataProvider -->
     </classes>
-  </test> <!-- WindowsTests(failed) -->
-  <test thread-count="4" name="AlertsTests(failed)" parallel="tests">
-    <classes>
-      <class name="net.thomasmaestas.selenium.alertstests.AlertsTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="jsDismissTest"/>
-        </methods>
-      </class> <!-- net.thomasmaestas.selenium.alertstests.AlertsTests -->
-    </classes>
-  </test> <!-- AlertsTests(failed) -->
-  <test thread-count="4" name="NegativePasswordTest-FF(failed)" parallel="tests">
-    <parameter name="password" value="incorrectPassword"/>
-    <parameter name="browser" value="firefox"/>
-    <parameter name="expectedMessage" value="Your password is invalid!"/>
-    <parameter name="username" value="tomsmith"/>
-    <classes>
-      <class name="net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="negativeTest"/>
-        </methods>
-      </class> <!-- net.thomasmaestas.selenium.loginpagetests.NegativeLogInTests -->
-    </classes>
-  </test> <!-- NegativePasswordTest-FF(failed) -->
-  <test thread-count="4" name="DragAndDropTests-FF(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="net.thomasmaestas.selenium.draganddroptests.DragAndDropTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="dragAToBTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- net.thomasmaestas.selenium.draganddroptests.DragAndDropTests -->
-    </classes>
-  </test> <!-- DragAndDropTests-FF(failed) -->
-</suite> <!-- Failed suite [FullUITestSuite] -->
+  </test> <!-- NegativeLogInTest-CH(failed) -->
+</suite> <!-- Failed suite [NegativeLogInTestSuite] -->
