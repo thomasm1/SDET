@@ -32,16 +32,14 @@ public class TestUtilities extends BaseTest {
 	
 	protected void takeScreenshot(String fileName) {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//		String testMethodName = null;
-//		String testName = null;
-//		String testSuiteName = null;
+
 		String path = System.getProperty("user.dir") 
 				+ File.separator + "test-output" 
 				+ File.separator + "screenshots"
 				+ File.separator + getTodaysDate() 
-				+ File.separator + "testSuiteName" 
-				+ File.separator + "testName"
-				+ File.separator + "testMethodName" 
+				+ File.separator + testSuiteName
+				+ File.separator + testName
+				+ File.separator + testMethodName
 				+ File.separator + getSystemTime() 
 				+ " " + fileName + ".png";
 		try {
