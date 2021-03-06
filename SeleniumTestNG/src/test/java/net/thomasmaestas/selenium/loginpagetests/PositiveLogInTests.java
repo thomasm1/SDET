@@ -14,7 +14,7 @@ public class PositiveLogInTests extends TestUtilities {
 
 	@Test
 	public void logInTest() {
-		log.info("Starting logIn test");
+//		log.info("Starting logIn test");
 
 		// open main page
 		WelcomePage welcomePage = new WelcomePage(driver, log);

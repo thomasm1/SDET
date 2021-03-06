@@ -14,19 +14,20 @@ public class TestListener implements ITestListener {
 	
 	@Override
 	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
+		this.testMethodName  = result.getMethod().getMethodName(); // <--Test Name from TEST CLASS! 
+		log.info("[Starting " + testMethodName + "]");
 
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
+		log.info("[Test " + testMethodName + " passed]");
 
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
+		log.info("[Test " + testMethodName + " failed]");
 
 	}
 
@@ -44,13 +45,15 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+		this.testName  = context.getCurrentXmlTest().getName(); // <--Test Name from TEST SUITE!
+		this.log = LogManager.getLogger(testName);
+		log.info("[TEST " + testName + " STARTED]");
 
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+		log.info("[TEST " + testName + " FINISHED]");
 
 	}
 

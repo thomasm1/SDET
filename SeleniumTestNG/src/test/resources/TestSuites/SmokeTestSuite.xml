@@ -2,6 +2,11 @@
 
 <suite name="SmokeTestSuite" verbose="1">
 	
+	<!--  USING TESTLISTENER ANNOTATIONS IN BASETEST 
+	<listeners>
+		<listener class-name="net.thomasmaestas.selenium.base.TestListener"></listener>
+	</listeners>
+	-->
 	<test name="PositiveLogInTest">
 		<classes>
 			<class name="net.thomasmaestas.selenium.loginpagetests.PositiveLogInTests" />
