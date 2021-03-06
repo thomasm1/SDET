@@ -1,6 +1,6 @@
 package net.thomasmaestas.selenium.alertstests;
 
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -41,7 +41,7 @@ public class AlertsTests extends TestUtilities {
 //		Assert.assertTrue(alertMessage.equals("I am a JS Alert"),
 				"Alert message is not expected. \nShould be 'I am a JS Alert', but it is '" + alertMessage + "'");
 
-		// 2 - Result text is expected
+		// 2 - Result text is expected            	<!-- line 45 is inexplicable error - should be fine -->
 		softAssert.assertTrue(result.equals("You successfuly clicked an alert"),
 				"result is not expected. \nShould be 'You successfuly clicked an alert', but it is '" + result + "'");
 		softAssert.assertAll();
@@ -111,7 +111,7 @@ public class AlertsTests extends TestUtilities {
 		softAssert.assertTrue(alertMessage.equals("I am a JS prompt"),
 				"Alert message is not expected. \nShould be 'I am a JS prompt', but it is '" + alertMessage + "'");
 
-		// 2 - Result text is expected
+		// 2 - Result text is expected    
 		softAssert.assertTrue(result.equals("You entered: Hello Alert, it's Dmitry here"),
 				"result is not expected. \nShould be 'You entered: Hello Alert, its Dmitry here', but it is '" + result
 						+ "'");

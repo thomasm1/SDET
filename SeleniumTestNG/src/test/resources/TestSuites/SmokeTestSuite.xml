@@ -10,6 +10,7 @@
 	
 	<test name="AlertsTests">
 		<classes>
+		<!-- line 45 is inexplicable error - should be fine -->
 			<class name="net.thomasmaestas.selenium.alertstests.AlertsTests" />
 		</classes>
 	</test>

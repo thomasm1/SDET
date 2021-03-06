@@ -79,6 +79,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\w\www\git\CucumberFramework\TestConsole"/>
 			<item value="C:\w\www\git\CucumberFramework\SeleniumTestNG"/>
 		</list>
 		<list key="projectNameTemplate">
