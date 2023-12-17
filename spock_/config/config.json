@@ -1,0 +1,26 @@
+{
+    "development": {
+      "username": "root",
+      "password": "abc123!!",
+      "database": "cryptomaven",
+      "host": "127.0.0.1",
+      "ports":[5433,5432],
+      "port":"5432",
+      "dialect": "postgres",
+      "baseUrl":"localhost"
+    },
+    "test": {
+      "username": "root",
+      "password": "abc123!!",
+      "database": "cryptomaven",
+      "host": "thomas.cmcadlepsyx9.us-east-1.rds.amazonaws.com",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "admin",
+      "password": "password",
+      "database": "cryptomaven",
+      "host": "thomas.cmcadlepsyx9.us-east-1.rds.amazonaws.com",
+      "dialect": "postgres"
+    }
+  }
