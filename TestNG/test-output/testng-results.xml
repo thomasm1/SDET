@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64035" started-at="2018-10-07T09:48:07Z" finished-at="2018-10-07T09:49:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64035" started-at="2018-10-07T09:48:07Z" finished-at="2018-10-07T09:49:11Z">
+      <class name="xyz.cryptomaven.testng.testng.SampleSeleniumTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:xyz.cryptomaven.testng.testng.SampleSeleniumTest@1474c6c]" name="startBrowser" is-config="true" duration-ms="9232" started-at="2018-10-07T09:48:07Z" finished-at="2018-10-07T09:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="validateGoogleId()[pri:0, instance:xyz.cryptomaven.testng.testng.SampleSeleniumTest@1474c6c]" name="validateGoogleId" duration-ms="52803" started-at="2018-10-07T09:48:17Z" finished-at="2018-10-07T09:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleId -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:xyz.cryptomaven.testng.testng.SampleSeleniumTest@1474c6c]" name="closeBrowser" is-config="true" duration-ms="1901" started-at="2018-10-07T09:49:10Z" finished-at="2018-10-07T09:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- xyz.cryptomaven.testng.testng.SampleSeleniumTest -->
+      <class name="xyz.cryptomaven.testng.testng.CalcTest">
+        <test-method status="PASS" signature="addTest()[pri:0, instance:xyz.cryptomaven.testng.testng.CalcTest@fb4a64]" name="addTest" duration-ms="49" started-at="2018-10-07T09:48:07Z" finished-at="2018-10-07T09:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:xyz.cryptomaven.testng.testng.CalcTest@fb4a64]" name="subtractTest" duration-ms="0" started-at="2018-10-07T09:48:07Z" finished-at="2018-10-07T09:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+      </class> <!-- xyz.cryptomaven.testng.testng.CalcTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
